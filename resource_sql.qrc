@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/prefix1"/>
+    <qresource prefix="/">
+        <file>Icones - Copia/estoque.png</file>
+        <file>Icones - Copia/cadeado_aberto.jpg</file>
+        <file>Icones - Copia/cadeado_fechado.jpg</file>
+        <file>Icones - Copia/pessoas.png</file>
+        <file>Icones - Copia/sobre.1.png</file>
+        <file>Icones - Copia/vendas_2.png</file>
+        <file>Icones - Copia/sair.png</file>
+    </qresource>
+</RCC>

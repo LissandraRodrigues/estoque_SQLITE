@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fm_principal</class>
+ <widget class="QMainWindow" name="fm_principal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>624</width>
+    <height>402</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>fm_principal</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color: blue;
+font-size:25px;
+</string>
+    </property>
+    <property name="text">
+     <string>Nova Venda</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>300</y>
+      <width>163</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>bloq</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Sem colaborador</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>624</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuGest_o">
+    <property name="title">
+     <string>Gestão</string>
+    </property>
+    <addaction name="actionEstoque"/>
+    <addaction name="actionVendas"/>
+    <addaction name="separator"/>
+    <addaction name="actionColaboradores"/>
+   </widget>
+   <widget class="QMenu" name="menuSistema">
+    <property name="title">
+     <string>Sistema</string>
+    </property>
+    <addaction name="actionSobre"/>
+    <addaction name="separator"/>
+    <addaction name="actionSair"/>
+   </widget>
+   <addaction name="menuGest_o"/>
+   <addaction name="menuSistema"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionVendas"/>
+   <addaction name="actionEstoque"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionEstoque">
+   <property name="icon">
+    <iconset resource="resource_sql.qrc">
+     <normaloff>:/Icones - Copia/estoque.png</normaloff>:/Icones - Copia/estoque.png</iconset>
+   </property>
+   <property name="text">
+    <string>Estoque</string>
+   </property>
+  </action>
+  <action name="actionVendas">
+   <property name="icon">
+    <iconset resource="resource_sql.qrc">
+     <normaloff>:/Icones - Copia/vendas_2.png</normaloff>:/Icones - Copia/vendas_2.png</iconset>
+   </property>
+   <property name="text">
+    <string>Vendas</string>
+   </property>
+  </action>
+  <action name="actionColaboradores">
+   <property name="icon">
+    <iconset resource="resource_sql.qrc">
+     <normaloff>:/Icones - Copia/pessoas.png</normaloff>:/Icones - Copia/pessoas.png</iconset>
+   </property>
+   <property name="text">
+    <string>Colaboradores</string>
+   </property>
+  </action>
+  <action name="actionSobre">
+   <property name="icon">
+    <iconset resource="resource_sql.qrc">
+     <normaloff>:/Icones - Copia/sobre.1.png</normaloff>:/Icones - Copia/sobre.1.png</iconset>
+   </property>
+   <property name="text">
+    <string>Sobre</string>
+   </property>
+  </action>
+  <action name="actionSair">
+   <property name="icon">
+    <iconset resource="resource_sql.qrc">
+     <normaloff>:/Icones - Copia/sair.png</normaloff>:/Icones - Copia/sair.png</iconset>
+   </property>
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resource_sql.qrc"/>
+ </resources>
+ <connections/>
+</ui>
